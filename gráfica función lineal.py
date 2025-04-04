@@ -15,9 +15,9 @@ def graficar():
 
         ax.clear()
         ax.plot(x, y, label=f"f(x) = {m}x + {b}", color="blue")
-        # Dibujar ejes X y Y en el centro
-        ax.axhline(0, color='black', linewidth=1)  # Eje X
-        ax.axvline(0, color='black', linewidth=1)  # Eje Y
+ 
+        ax.axhline(0, color='black', linewidth=1) 
+        ax.axvline(0, color='black', linewidth=1)
         ax.set_xlim(-30, 30)
         ax.set_ylim(-30, 30)
 
